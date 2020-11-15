@@ -4,24 +4,44 @@
     <meta charset="utf-8" />
     <link rel="icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Web site created using create-snowpack-app" />
-    <link rel="stylesheet" type="text/css" href="/index.css" />
-    <title>Snowpack App</title>
+    <meta
+      name="description"
+      content="Web site created using create-snowpack-app"
+    />
+    <link rel="stylesheet" type="text/css" href="/_dist_/index.css" />
+    <title>Snowpack & Tailwind App</title>
   </head>
   <body>
-    <img id="img" src="/logo.svg" />
-    <canvas id="canvas"></canvas>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <script type="module" src="/_dist_/index.js"></script>
     <!--
       This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
 
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
+
+      Start modyfing from here.
     -->
+    <div class="py-12 bg-white">
+      <div class="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center">
+          <p
+            class="text-base leading-6 text-indigo-600 font-semibold tracking-wide uppercase"
+          >
+            Snowpack
+          </p>
+          <h3
+            class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10"
+          >
+            Tailwind template
+          </h3>
+          <p class="mt-4 max-w-2xl text-xl leading-7 text-gray-500 mx-auto">
+            Use this template to build awesome websites using Snowpack and
+            Tailwind
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Add more scripts here -->
+    <script type="module" src="/_dist_/index.js"></script>
   </body>
 </html>
