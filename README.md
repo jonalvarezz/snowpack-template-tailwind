@@ -1,6 +1,30 @@
-# New Project
+# Snowpack Tailwind
 
 > ✨ Bootstrapped with Create Snowpack App (CSA).
+
+Ready-to-go template to create awesome websites using Tailwind and autopublish to GitHub pages.
+
+- [Quick start](#-quick-start)
+- [Features](#-features)
+- [Available Scripts](#-available-scripts)
+
+## Quick start
+
+```sh
+npx create-snowpack-app my-app --template snowpack-template-tailwind --use-yarn
+```
+
+It bootstraps this template into a new folder called `my-app/`.
+
+✨ Every commit pushed to your `main` branch will autopublish the site on GitHub Pages.
+
+## Features
+
+- Snowpack, of course.
+- Tailwind.
+- Prettier.
+- Force prettier on commit.
+- Autopublish on Github Pages.
 
 ## Available Scripts
 

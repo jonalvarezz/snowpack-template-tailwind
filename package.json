@@ -1,4 +1,15 @@
 {
+  "name": "snowpack-template-tailwind",
+  "version": "0.1.0",
+  "author": "Jonathan Alvarez",
+  "description": "Snowpack CSA Template for tailwind, prettier and autopublish on GH pages",
+  "repository": "github:jonalvarezz/snowpack-template-tailwind",
+  "homepage": "https://github.com/jonalvarezz/snowpack-template-tailwind",
+  "keywords": [
+    "snowpack",
+    "csa-template"
+  ],
+  "license": "MIT",
   "scripts": {
     "start": "snowpack dev",
     "build": "snowpack build",
