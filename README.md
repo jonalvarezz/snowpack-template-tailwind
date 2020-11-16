@@ -2,7 +2,7 @@
 
 > ✨ Bootstrapped with Create Snowpack App (CSA).
 
-Ready-to-go template to create awesome websites using Tailwind and autopublish to GitHub pages.
+Ready-to-go template to create awesome websites using Tailwind on top of Snowpack and autopublish to GitHub pages using GitHub Actions.
 
 - [Quick start](#quick-start)
 - [Features](#features)
@@ -27,10 +27,18 @@ It bootstraps this template into a new folder called `my-app/`.
 - Autopublish on Github Pages.
 
 ### Q: How do I enable auto publish to GitHub Pages?
-1. Once the app is created, push your changes to a new repository.
-2. You should see an Action running on `https://github.com/<your-username>/<repo-name>/actions`
-3. Make sure to [enable GitHub pages for your repo](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#choosing-a-publishing-source) and select the `gh-pages` branch
 
+1. Create a new Snowpack app using the script from the [quick start](#quick-start) section.
+1. Update the value of `homepage` in `package.json`. It should like `https://<your-username>.github.io/<your-repo-name>` (no trailing slash).
+1. Push your changes into a new GitHub repository.
+1. You should see an Action running on `https://github.com/<your-username>/<repo-name>/actions`
+1. Make sure to [enable GitHub pages for your repo](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#choosing-a-publishing-source) and select the `gh-pages` branch
+1. Give GH Pages some minutes, your site should be live on `https://<your-username>.github.io/<your-repo-name>`
+1. Enjoy :)
+
+### Q: How do I disable auto publish to GitHub Pages?
+
+Remove the `.github/workflows/publish.yml` file.
 
 ## Available Scripts
 
