@@ -27,6 +27,14 @@
       "pre-commit": "pretty-quick --staged"
     }
   },
+  "files": [
+    ".gitignore",
+    ".github/workflows/publish.yml",
+    "public",
+    "src",
+    "snowpack.config.js",
+    "yarn.lock"
+  ],
   "devDependencies": {
     "husky": "^4.3.0",
     "prettier": "^2.0.5",
