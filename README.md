@@ -4,9 +4,9 @@
 
 Ready-to-go template to create awesome websites using Tailwind and autopublish to GitHub pages.
 
-- [Quick start](#-quick-start)
-- [Features](#-features)
-- [Available Scripts](#-available-scripts)
+- [Quick start](#quick-start)
+- [Features](#features)
+- [Available Scripts](#available-scripts)
 
 ## Quick start
 
