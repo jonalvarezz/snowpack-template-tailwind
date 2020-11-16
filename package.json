@@ -4,7 +4,7 @@
   "author": "Jonathan Alvarez",
   "description": "Snowpack CSA Template for tailwind, prettier and autopublish on GH pages",
   "repository": "github:jonalvarezz/snowpack-template-tailwind",
-  "homepage": "https://github.com/jonalvarezz/snowpack-template-tailwind",
+  "homepage": "https://jonalvarezz.github.io/snowpack-template-tailwind",
   "keywords": [
     "snowpack",
     "csa-template"
