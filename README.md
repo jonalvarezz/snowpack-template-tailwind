@@ -11,12 +11,21 @@ Ready-to-go template to create awesome websites using Tailwind on top of Snowpac
 ## Quick start
 
 ```sh
-npx create-snowpack-app my-app --template snowpack-template-tailwind --use-yarn
+npx create-snowpack-app my-app --template snowpack-template-tailwind
 ```
 
 It bootstraps this template into a new folder called `my-app/`.
 
 ✨ Every commit pushed to your `main` branch will autopublish the site on GitHub Pages.
+
+
+#### Optional install using Yarn:
+
+```sh
+npx create-snowpack-app my-app --template snowpack-template-tailwind --use-yarn
+```
+
+
 
 ## Features
 
