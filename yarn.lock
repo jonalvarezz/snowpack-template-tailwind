@@ -1980,9 +1980,9 @@ slash@^3.0.0:
   integrity sha512-g9Q1haeby36OSStwb4ntCGGGaKsaVSjQ68fBxoQcutl5fS1vuY18H3wSt3jFyFtrkx+Kz0V1G85A4MyAdDMi2Q==
 
 snowpack@^2.17.1:
-  version "2.18.4"
-  resolved "https://registry.yarnpkg.com/snowpack/-/snowpack-2.18.4.tgz#819ac2bf05623f85155f82e2e49f8d5f8abde664"
-  integrity sha512-tZpcK3UBtYVF9ED1h9h9qkSYSC2IzVXjOHN+Iqo3tnDMCHvv/fgTMQT3+nJwPerBYvUemaCTS8pjRQDYfbWfQA==
+  version "2.18.5"
+  resolved "https://registry.yarnpkg.com/snowpack/-/snowpack-2.18.5.tgz#10a0130fb1eeecda6dfd3be1b1b60ff9849e3da4"
+  integrity sha512-UThUbGXn/wN7zRJDVpbC0F3uvkhu6PAgpTbV1hdAaqLvYBewT794iEMAY5mMxT27zQ+ZOyqbICaBtKtq0BgDcA==
   dependencies:
     "@snowpack/plugin-build-script" "^2.0.12"
     "@snowpack/plugin-run-script" "^2.2.1"
