@@ -1,6 +1,6 @@
 {
   "name": "snowpack-template-tailwind",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "author": "Jonathan Alvarez",
   "description": "Snowpack CSA Template for tailwind, prettier and autopublish on GH pages",
   "repository": "github:jonalvarezz/snowpack-template-tailwind",
