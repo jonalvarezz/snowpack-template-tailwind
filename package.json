@@ -14,18 +14,14 @@
     "start": "snowpack dev",
     "build": "snowpack build",
     "format": "prettier --write \"src/**/*.js\"",
-    "lint": "prettier --check \"src/**/*.js\""
+    "lint": "prettier --check \"src/**/*.js\"",
+    "prepare": "husky install"
   },
   "prettier": {
     "trailingComma": "es5",
     "tabWidth": 2,
     "semi": false,
     "singleQuote": true
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "pretty-quick --staged"
-    }
   },
   "files": [
     ".gitignore",
@@ -36,7 +32,7 @@
     "yarn.lock"
   ],
   "devDependencies": {
-    "husky": "^5.2.0",
+    "husky": "5",
     "prettier": "^2.0.5",
     "pretty-quick": "^3.1.0",
     "snowpack": "^3.0.11",
