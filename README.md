@@ -11,28 +11,33 @@ Ready-to-go template to create awesome websites using Tailwind on top of Snowpac
 ## Quick start
 
 ```sh
+# Bootstrap the template into a new folder called `my-app`
 npx create-snowpack-app my-app --template snowpack-template-tailwind
+
+# Enable Prettier on git-commit
+cd my-app
+npm run install:husky
 ```
 
-It bootstraps this template into a new folder called `my-app/`.
-
-✨ Every commit pushed to your `main` branch will autopublish the site on GitHub Pages.
-
+✨ Optional: [Enable autopublish](#q-how-do-i-enable-auto-publish-to-github-pages) to get your site deployed on GitHub Pages on every commit you push.
 
 #### Optional install using Yarn:
 
 ```sh
+# Bootstrap the template into a new folder called `my-app`
 npx create-snowpack-app my-app --template snowpack-template-tailwind --use-yarn
+
+# Enable Prettier on git-commit
+cd my-app
+yarn install:husky
 ```
-
-
 
 ## Features
 
 - Snowpack, of course.
 - Tailwind.
 - Prettier.
-- Force prettier on commit.
+- Force prettier on git-commit.
 - Autopublish on Github Pages.
 
 ### Q: How do I enable auto publish to GitHub Pages?
@@ -48,6 +53,10 @@ npx create-snowpack-app my-app --template snowpack-template-tailwind --use-yarn
 ### Q: How do I disable auto publish to GitHub Pages?
 
 Remove the `.github/workflows/publish.yml` file.
+
+### Q: How do I check my code syntax (Prettier) on git-commit?
+
+Run `npm run install:husky`.
 
 ## Available Scripts
 
