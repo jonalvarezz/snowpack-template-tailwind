@@ -15,7 +15,7 @@
     "build": "snowpack build",
     "format": "prettier --write \"src/**/*.js\"",
     "lint": "prettier --check \"src/**/*.js\"",
-    "prepare": "husky install"
+    "install:husky": "husky install"
   },
   "prettier": {
     "trailingComma": "es5",
