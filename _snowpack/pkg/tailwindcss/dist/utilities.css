@@ -13373,12 +13373,10 @@
 }
 
 .max-w-min {
-  max-width: -webkit-min-content;
   max-width: min-content
 }
 
 .max-w-max {
-  max-width: -webkit-max-content;
   max-width: max-content
 }
 
@@ -13427,12 +13425,10 @@
 }
 
 .min-w-min {
-  min-width: -webkit-min-content;
   min-width: min-content
 }
 
 .min-w-max {
-  min-width: -webkit-max-content;
   min-width: max-content
 }
 
@@ -24564,12 +24560,10 @@
 }
 
 .w-min {
-  width: -webkit-min-content;
   width: min-content
 }
 
 .w-max {
-  width: -webkit-max-content;
   width: max-content
 }
 
@@ -25158,12 +25152,10 @@
 }
 
 .auto-cols-min {
-  grid-auto-columns: -webkit-min-content;
   grid-auto-columns: min-content
 }
 
 .auto-cols-max {
-  grid-auto-columns: -webkit-max-content;
   grid-auto-columns: max-content
 }
 
@@ -25372,12 +25364,10 @@
 }
 
 .auto-rows-min {
-  grid-auto-rows: -webkit-min-content;
   grid-auto-rows: min-content
 }
 
 .auto-rows-max {
-  grid-auto-rows: -webkit-max-content;
   grid-auto-rows: max-content
 }
 
@@ -42602,12 +42592,10 @@
   }
 
   .sm\:max-w-min {
-    max-width: -webkit-min-content;
     max-width: min-content
   }
 
   .sm\:max-w-max {
-    max-width: -webkit-max-content;
     max-width: max-content
   }
 
@@ -42656,12 +42644,10 @@
   }
 
   .sm\:min-w-min {
-    min-width: -webkit-min-content;
     min-width: min-content
   }
 
   .sm\:min-w-max {
-    min-width: -webkit-max-content;
     min-width: max-content
   }
 
@@ -53780,12 +53766,10 @@
   }
 
   .sm\:w-min {
-    width: -webkit-min-content;
     width: min-content
   }
 
   .sm\:w-max {
-    width: -webkit-max-content;
     width: max-content
   }
 
@@ -54374,12 +54358,10 @@
   }
 
   .sm\:auto-cols-min {
-    grid-auto-columns: -webkit-min-content;
     grid-auto-columns: min-content
   }
 
   .sm\:auto-cols-max {
-    grid-auto-columns: -webkit-max-content;
     grid-auto-columns: max-content
   }
 
@@ -54588,12 +54570,10 @@
   }
 
   .sm\:auto-rows-min {
-    grid-auto-rows: -webkit-min-content;
     grid-auto-rows: min-content
   }
 
   .sm\:auto-rows-max {
-    grid-auto-rows: -webkit-max-content;
     grid-auto-rows: max-content
   }
 
@@ -71696,12 +71676,10 @@
   }
 
   .md\:max-w-min {
-    max-width: -webkit-min-content;
     max-width: min-content
   }
 
   .md\:max-w-max {
-    max-width: -webkit-max-content;
     max-width: max-content
   }
 
@@ -71750,12 +71728,10 @@
   }
 
   .md\:min-w-min {
-    min-width: -webkit-min-content;
     min-width: min-content
   }
 
   .md\:min-w-max {
-    min-width: -webkit-max-content;
     min-width: max-content
   }
 
@@ -82874,12 +82850,10 @@
   }
 
   .md\:w-min {
-    width: -webkit-min-content;
     width: min-content
   }
 
   .md\:w-max {
-    width: -webkit-max-content;
     width: max-content
   }
 
@@ -83468,12 +83442,10 @@
   }
 
   .md\:auto-cols-min {
-    grid-auto-columns: -webkit-min-content;
     grid-auto-columns: min-content
   }
 
   .md\:auto-cols-max {
-    grid-auto-columns: -webkit-max-content;
     grid-auto-columns: max-content
   }
 
@@ -83682,12 +83654,10 @@
   }
 
   .md\:auto-rows-min {
-    grid-auto-rows: -webkit-min-content;
     grid-auto-rows: min-content
   }
 
   .md\:auto-rows-max {
-    grid-auto-rows: -webkit-max-content;
     grid-auto-rows: max-content
   }
 
@@ -100790,12 +100760,10 @@
   }
 
   .lg\:max-w-min {
-    max-width: -webkit-min-content;
     max-width: min-content
   }
 
   .lg\:max-w-max {
-    max-width: -webkit-max-content;
     max-width: max-content
   }
 
@@ -100844,12 +100812,10 @@
   }
 
   .lg\:min-w-min {
-    min-width: -webkit-min-content;
     min-width: min-content
   }
 
   .lg\:min-w-max {
-    min-width: -webkit-max-content;
     min-width: max-content
   }
 
@@ -111968,12 +111934,10 @@
   }
 
   .lg\:w-min {
-    width: -webkit-min-content;
     width: min-content
   }
 
   .lg\:w-max {
-    width: -webkit-max-content;
     width: max-content
   }
 
@@ -112562,12 +112526,10 @@
   }
 
   .lg\:auto-cols-min {
-    grid-auto-columns: -webkit-min-content;
     grid-auto-columns: min-content
   }
 
   .lg\:auto-cols-max {
-    grid-auto-columns: -webkit-max-content;
     grid-auto-columns: max-content
   }
 
@@ -112776,12 +112738,10 @@
   }
 
   .lg\:auto-rows-min {
-    grid-auto-rows: -webkit-min-content;
     grid-auto-rows: min-content
   }
 
   .lg\:auto-rows-max {
-    grid-auto-rows: -webkit-max-content;
     grid-auto-rows: max-content
   }
 
@@ -129884,12 +129844,10 @@
   }
 
   .xl\:max-w-min {
-    max-width: -webkit-min-content;
     max-width: min-content
   }
 
   .xl\:max-w-max {
-    max-width: -webkit-max-content;
     max-width: max-content
   }
 
@@ -129938,12 +129896,10 @@
   }
 
   .xl\:min-w-min {
-    min-width: -webkit-min-content;
     min-width: min-content
   }
 
   .xl\:min-w-max {
-    min-width: -webkit-max-content;
     min-width: max-content
   }
 
@@ -141062,12 +141018,10 @@
   }
 
   .xl\:w-min {
-    width: -webkit-min-content;
     width: min-content
   }
 
   .xl\:w-max {
-    width: -webkit-max-content;
     width: max-content
   }
 
@@ -141656,12 +141610,10 @@
   }
 
   .xl\:auto-cols-min {
-    grid-auto-columns: -webkit-min-content;
     grid-auto-columns: min-content
   }
 
   .xl\:auto-cols-max {
-    grid-auto-columns: -webkit-max-content;
     grid-auto-columns: max-content
   }
 
@@ -141870,12 +141822,10 @@
   }
 
   .xl\:auto-rows-min {
-    grid-auto-rows: -webkit-min-content;
     grid-auto-rows: min-content
   }
 
   .xl\:auto-rows-max {
-    grid-auto-rows: -webkit-max-content;
     grid-auto-rows: max-content
   }
 
@@ -158978,12 +158928,10 @@
   }
 
   .\32xl\:max-w-min {
-    max-width: -webkit-min-content;
     max-width: min-content
   }
 
   .\32xl\:max-w-max {
-    max-width: -webkit-max-content;
     max-width: max-content
   }
 
@@ -159032,12 +158980,10 @@
   }
 
   .\32xl\:min-w-min {
-    min-width: -webkit-min-content;
     min-width: min-content
   }
 
   .\32xl\:min-w-max {
-    min-width: -webkit-max-content;
     min-width: max-content
   }
 
@@ -170156,12 +170102,10 @@
   }
 
   .\32xl\:w-min {
-    width: -webkit-min-content;
     width: min-content
   }
 
   .\32xl\:w-max {
-    width: -webkit-max-content;
     width: max-content
   }
 
@@ -170750,12 +170694,10 @@
   }
 
   .\32xl\:auto-cols-min {
-    grid-auto-columns: -webkit-min-content;
     grid-auto-columns: min-content
   }
 
   .\32xl\:auto-cols-max {
-    grid-auto-columns: -webkit-max-content;
     grid-auto-columns: max-content
   }
 
@@ -170964,12 +170906,10 @@
   }
 
   .\32xl\:auto-rows-min {
-    grid-auto-rows: -webkit-min-content;
     grid-auto-rows: min-content
   }
 
   .\32xl\:auto-rows-max {
-    grid-auto-rows: -webkit-max-content;
     grid-auto-rows: max-content
   }
 
