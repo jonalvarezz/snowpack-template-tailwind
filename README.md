@@ -33,6 +33,9 @@ npx create-snowpack-app my-app --template snowpack-template-tailwind --use-yarn
 # Enable Prettier on git-commit
 cd my-app
 yarn install:husky
+
+# Start the development server
+yarn start
 ```
 
 ## Features
