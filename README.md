@@ -17,6 +17,9 @@ npx create-snowpack-app my-app --template snowpack-template-tailwind
 # Enable Prettier on git-commit
 cd my-app
 npm run install:husky
+
+# Start the development server
+npm start
 ```
 
 ✨ Optional: [Enable autopublish](#q-how-do-i-enable-auto-publish-to-github-pages) to get your site deployed on GitHub Pages on every commit you push.
